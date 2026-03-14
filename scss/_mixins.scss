@@ -2,6 +2,36 @@
   padding: $spacing-lg 0;
 }
 
+@mixin container-padding {
+  padding: $spacing-sm $spacing-sm;
+}
+
+@mixin pill-button(
+  $bg: $primary,
+  $textcolor: $dark100,
+  $paddingx: 10px,
+  $paddingy: $spacing-md,
+  $width: auto
+) {
+  border-radius: 100px;
+  padding: $paddingx $paddingy;
+  background-color: $bg;
+  font-size: 16px;
+  color: $textcolor;
+  text-align: center;
+
+  &:hover {
+    color: $textcolor;
+    @if $bg == $primary {
+      background-color: $dark;
+      color: $textcolor;
+    } @else {
+      background-color: $primary;
+      color: $dark100;
+    }
+  }
+}
+
 @mixin card {
   background: white;
   border-radius: $radius;

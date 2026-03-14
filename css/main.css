@@ -43,15 +43,64 @@ body {
   font-size: 14px;
 }
 
-.top__announcement {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+
+a,
+p,
+li,
+button {
+  font-family: "Roboto Mono", monospace;
+}
+
+.cta__link-secondary {
+  border-radius: 100px;
+  padding: 10px 2rem;
+  background-color: #222430;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.cta__link-secondary:hover {
+  color: #fff;
   background-color: #ffba00;
-  padding: 1rem 2rem;
+  color: #222430;
+}
+
+.top__announcement {
+  padding: 1rem 1rem;
+  background-color: #ffba00;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .top__announcement p {
   font-size: 12px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
   margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1rem;
+}
+.main__navigation div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 .button.primary {
