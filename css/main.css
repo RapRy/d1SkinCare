@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  color: #2e302e;
+  background-color: #eff7fa;
+  font-size: 14px;
+}
+
+.top__announcement {
+  background-color: #ffba00;
+  padding: 1rem 2rem;
+}
+.top__announcement p {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 0;
+}
+
+.button.primary {
+  background: #ffba00;
+  color: black;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+}
+
+.routine-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.routine-card img {
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.benefit-card {
+  text-align: center;
+}
+.benefit-card img {
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

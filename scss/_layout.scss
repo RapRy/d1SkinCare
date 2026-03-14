@@ -1,0 +1,18 @@
+body {
+  font-family: $font-primary;
+  color: $textprimary;
+  background-color: $sitebg;
+  font-size: 14px;
+}
+
+.top__announcement {
+  background-color: $primary;
+  padding: $spacing-sm $spacing-md;
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    font-family: $font-mono;
+    margin-bottom: 0;
+  }
+}

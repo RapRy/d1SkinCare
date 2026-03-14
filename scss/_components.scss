@@ -1,0 +1,25 @@
+.button.primary {
+  background: $primary;
+  color: black;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+}
+
+.routine-card {
+  @include card;
+  text-align: center;
+
+  img {
+    border-radius: $radius;
+    margin-bottom: 1rem;
+  }
+}
+
+.benefit-card {
+  text-align: center;
+
+  img {
+    border-radius: $radius;
+    margin-bottom: 1rem;
+  }
+}
